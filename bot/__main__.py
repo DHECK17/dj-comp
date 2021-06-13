@@ -22,4 +22,4 @@ bot.load_extension("bot.cogs.information")
 
 # run the bot with the token or enviroment variable
 token = sys.argv[1] if len(sys.argv) >= 2 else os.environ["BOT_TOKEN"]
-bot.run("ODUxMzUwNzE2MjgzMDkzMDM0.YL3AJA.vNFC2SerldzXjbre1iXSqsS3y80")
+bot.run(token)
