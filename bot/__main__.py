@@ -11,7 +11,7 @@ from discord.ext import commands
 from bot.constants import PREFIX
 
 # create a Client object
-bot = commands.Bot(command_prefix=".")
+bot = commands.Bot(command_prefix=";")
 
 # load the bot extensions (the bot features)
 bot.load_extension("bot.cogs.admin")
