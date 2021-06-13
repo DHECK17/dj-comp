@@ -5,6 +5,7 @@ python -m bot token
 """
 
 import os, sys
+import emoji
 
 from discord.ext import commands
 
