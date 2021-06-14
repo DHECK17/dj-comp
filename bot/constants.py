@@ -38,7 +38,7 @@ LANGUAGES = {
         'command': 'assembly',
         'version': 'Assembly (NASM 2.14.02)',
         'icon': 'https://i.imgur.com/ObWopeS.png',
-        'emoji': '<:weary:>',
+        
         },
     46: {
         'command': 'bash',
