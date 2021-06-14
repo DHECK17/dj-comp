@@ -107,9 +107,8 @@ class Information(commands.Cog):
         for _, lang in LANGUAGES['array'].items():
             command = lang['command'] # eval(f"Lang.{lang}.command")
             version = lang['version'] # eval(f"Lang.{lang}.version")
-            emoji = lang['emoji'] # eval(f"Lang.{lang}.emoji")
-
-            lang_ver.append((command, version, emoji))
+           
+            lang_ver.append((command, version ))
 
         lang_chunks = [lang_ver[x : x + 5] for x in range(0, len(lang_ver), 5)]
 
