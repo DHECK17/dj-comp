@@ -151,13 +151,8 @@ class Execution(commands.Cog):
                 author_icon=ctx.message.author.avatar_url,
             )
         )
-        if submission["status"]["description"] == "Accepted":
-            await ctx.message.add_reaction(Emoji.Execution.successful)
-        else:
-            await ctx.message.add_reaction(Emoji.Execution.error)
-        await ctx.message.remove_reaction(
-            Emoji.Execution.loading, self.bot.user
-        )
+       
+        
 
     @commands.group(pass_context=True, aliases=list(LANGUAGES['ids'].keys()))
     async def run(self, ctx, *, code: Optional[str]):
