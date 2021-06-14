@@ -45,7 +45,7 @@ LANGUAGES = {
         'aliases': ['sh'],
         'version': 'Bash (4.4)',
         'icon': 'https://i.imgur.com/6BQ4g4J.png',
-        ,
+        
         },
     50: {
         'command': 'c',
