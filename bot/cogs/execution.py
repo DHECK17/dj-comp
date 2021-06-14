@@ -114,12 +114,12 @@ class Execution(commands.Cog):
 
         if code == None:
             await ctx.send(embed=self.__create_how_to_pass_embed(lang))
-            await ctx.message.add_reaction(Emoji.Execution.idle)
+            
             return
 
         if code.startswith("-v") or code.startswith("-version"):
             await ctx.send(f"> {lang['version']}")
-            await ctx.message.add_reaction(Emoji.Execution.idle)
+           
             return
 
         await ctx.message.add_reaction(Emoji.Execution.loading)
@@ -127,11 +127,7 @@ class Execution(commands.Cog):
         submission = await self.get_submission(code, lang['id'])
 
         if isinstance(submission, str):  # it is error code
-            await ctx.message.add_reaction(Emoji.Execution.offline)
             await ctx.send(submission)
-            await ctx.message.remove_reaction(
-                Emoji.Execution.loading, self.bot.user
-            )
             return
 
         await ctx.send(
