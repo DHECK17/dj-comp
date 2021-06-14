@@ -3,15 +3,8 @@
 import asyncio
 
 
-# emojis for input
-FAST_PREVIOUS = "\u23EA"  # [:track_previous:]
-PREVIOUS = "\u25C0"  # [:arrow_left:]
-NEXT = "\u25B6"  # [:arrow_right:]
-FAST_NEXT = "\u23E9"  # [:track_next:]
-DELETE_EMOJI = "\U0001F1FD"  # [:x:]
 
-# unite the emojis in one list
-EMOJIS = [FAST_PREVIOUS, PREVIOUS, NEXT, FAST_NEXT, DELETE_EMOJI]
+
 
 
 class Paginator:
