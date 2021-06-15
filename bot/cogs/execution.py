@@ -122,7 +122,7 @@ class Execution(commands.Cog):
            
             return
 
-        await ctx.message.add_reaction(Emoji.Execution.loading)
+        
         code = self.strip_source_code(code)
         submission = await self.get_submission(code, lang['id'])
 
