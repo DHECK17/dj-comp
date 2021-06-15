@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from discord import Colour
 
 
-BASE_URL = env['BASE_URL'] if 'BASE_URL' in env else 'https://judge0-ce.p.rapidapi.com'
+BASE_URL = env['BASE_URL'] if 'BASE_URL' in env else "https://judge0-ce.p.rapidapi.com"
 IDE_LINK = "https://hpwebide.42web.io/"
 
 AUTH_HEADER = env['AUTH_HEADER'] if 'AUTH_HEADER' in env else 'X-RapidAPI-Key'
