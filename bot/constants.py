@@ -14,7 +14,7 @@ BASE_URL = env['BASE_URL'] if 'BASE_URL' in env else 'judge0-ce.p.rapidapi.com'
 IDE_LINK = "https://hpwebide.42web.io/"
 
 AUTH_HEADER = env['AUTH_HEADER'] if 'AUTH_HEADER' in env else 'X-RapidAPI-Key'
-AUTH_KEY = env['AUTH_KEY'] if 'AUTH_KEY' in env else ''
+AUTH_KEY = env['AUTH_KEY'] if 'AUTH_KEY' in env else 'a5ec239b6dmsh981b1fd6fbc602ap199c49jsnd2575d8baead'
 
 PREFIX = ";"
 
