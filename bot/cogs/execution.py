@@ -234,7 +234,7 @@ class Execution(commands.Cog):
         base_url = f"{BASE_URL}/submissions/"
         payload = Execution.prepare_paylad(source_code, language_id, stdin)
         headers = {
-            'X-RapidAPI-Host': 'judge0.p.rapidapi.com',
+            'X-RapidAPI-Host': 'judge0-ce.p.rapidapi.com',
             AUTH_HEADER: AUTH_KEY,
             }    
         
