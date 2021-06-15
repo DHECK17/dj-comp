@@ -205,19 +205,19 @@ class Emoji:
         Represents emojis for workers health check.
         (command in bot.cogs.information)
         """
-        total= "<:weary:>"
-        available = "<:worried:>"
-        idle = "<:innocent:>"
-        working = "<:rage:>"
-        paused = "<:face_in_clouds:>"
-        failed = "<:cold_face:>"
+        total= "\U0001F1FD"
+        available = "\U0001F1FD"
+        idle = "\U0001F1FD"
+        working = "\U0001F1FD"
+        paused = "\U0001F1FD"
+        failed = "\U0001F1FD"
 
     class Execution:
-        loading = "<:eyes:>"
-        error = "<:ear:>"
-        successful = "<:grin:>"
-        offline = "<:sleeping:>"
-        idle = "<:hushed:>"
+        loading = "\U0001F1FD"
+        error = "\U0001F1FD"
+        successful = "\U0001F1FD"
+        offline = "\U0001F1FD"
+        idle = "\U0001F1FD"
 
 @dataclass
 class Color:
